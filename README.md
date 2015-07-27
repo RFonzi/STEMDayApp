@@ -9,7 +9,8 @@ As an effort to facilitate navigation around the school, SIGMOBILE at UCF create
   
   * Login screen fragment layout.
   * Push notifications using Parse.
-  * RecyclerView with dummy json data, will be the real schedule when we get access to the database. **Schedule**: Load a student/teacher's schedule from a mySQL database. The server returns JSON formatted strings that will be parsed. The list is displayed using RecyclerView. Current planned format will include title, date, and location.
+  * RecyclerView with dummy json data, will be the real schedule when we get access to the database. 
+  **Schedule**: Load a student/teacher's schedule from a mySQL database. The server returns JSON formatted strings that will be parsed. The list is displayed using RecyclerView. Current planned format will include title, date, and location.
 
 ## Work in progress:
 
