@@ -9,11 +9,11 @@ As an effort to facilitate navigation around the school, SIGMOBILE at UCF create
   
   * Login screen fragment layout.
   * Push notifications using Parse.
+  * RecyclerView with dummy json data, will be the real schedule when we get access to the database. **Schedule**: Load a student/teacher's schedule from a mySQL database. The server returns JSON formatted strings that will be parsed. The list is displayed using RecyclerView. Current planned format will include title, date, and location.
 
 ## Work in progress:
 
   * **Login**: Using the user provided token, connecting to the mySQL database and getting a response in JSON format. The response will contain the schedule corresponding to the token.
-  * **Schedule**: Load a student/teacher's schedule from a mySQL database. The server returns JSON formatted strings that will be parsed. The list is displayed using RecyclerView. Current planned format will include title, date, and location.
   * **PHP Script**: This script will run on the server for pulling database information. More specifically, pulling a desired token's schedule.
   * **Maps**: Users wil be able to tap on an event on their schedule to bring up a map (fragment) with their location and the location of the event.
   * **Maps overlay**: An overlay button on the maps screen that will expand when tapped. When expanded, it will bring up more information about the event and fun facts about UCF.
