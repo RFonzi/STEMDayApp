@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <View style="@style/Divider"/>
+
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/schedule"
