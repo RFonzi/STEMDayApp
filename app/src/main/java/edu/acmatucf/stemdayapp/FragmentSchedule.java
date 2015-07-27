@@ -1,13 +1,10 @@
 package edu.acmatucf.stemdayapp;
 
-<<<<<<< HEAD
 import android.content.Context;
-=======
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
->>>>>>> b18f70749cf31038ad7978ef96b3b77b8ccaf8de
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
