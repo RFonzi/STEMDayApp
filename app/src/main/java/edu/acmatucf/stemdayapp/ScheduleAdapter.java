@@ -35,7 +35,7 @@ public class ScheduleAdapter extends RecyclerView.Adapter<ScheduleViewHolder> {
 
     @Override
     public int getItemCount(){
-        return schedule.size();
+        return schedule == null ? 0 : schedule.size();
     }
 
 

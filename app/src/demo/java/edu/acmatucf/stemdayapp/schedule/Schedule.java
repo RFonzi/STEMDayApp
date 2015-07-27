@@ -10,22 +10,10 @@ import edu.acmatucf.stemdayapp.ScheduleItem;
  */
 public class Schedule implements ISchedule {
 
-    private final List<ScheduleItem> scheduleItemList;
+    private List<ScheduleItem> scheduleItemList;
 
-    public Schedule() {
-        scheduleItemList = new ArrayList<>();
-        long startDate = System.currentTimeMillis();
+    private Schedule() {
 
-
-        for(int i = 0; i < 10; i++){
-            startDate += 10000;
-            scheduleItemList.add(new ScheduleItem(
-                    startDate,
-                    startDate + 10000,
-                    "Test item " + i,
-                    "The location"
-            ));
-        }
     }
 
     @Override
@@ -35,7 +23,7 @@ public class Schedule implements ISchedule {
     }
 
     @Override
-    public void add(ScheduleItem scheduleItem) {
+    public void add(ScheduleItem scheduleItem)   {
          scheduleItemList.add(scheduleItem);
     }
 
