@@ -20,3 +20,4 @@ As an effort to facilitate navigation around the school, SIGMOBILE at UCF create
   * **Maps overlay**: An overlay button on the maps screen that will expand when tapped. When expanded, it will bring up more information about the event and fun facts about UCF.
   * **Toolbar**: Global toolbar which will contain images of UCF and a Contact Us button. When scrolling the schedule, it will resize using a parallax effect. 
     * Contact Us button will display info on event organizers, not fully decided yet.
+  * **Notifications**: User will get notifications 10 minutes before their event will start. Notification will include event name, location, start time. Tapping the notificaiton will bring the user to the map view/details.
